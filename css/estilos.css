@@ -1,0 +1,53 @@
+.contenido {
+	width: 900px;
+	margin: 5px;
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+
+	background: #5b7989;
+	color: white;
+	border-radius: 10px;
+
+}
+
+header h1 {
+	text-align: left;
+	display: inline-block;
+	text-shadow: 2px 2px  2px #02010a;
+}
+
+.menu {
+	list-style: none;
+	float: right;	
+	display: inline-block;
+}
+
+.imgprincipal{
+	width: 80%;
+	padding: 5px;
+}
+
+.paisajes{
+	
+}
+.retratos{
+	
+}
+
+.imgsecundaria{
+	width: 40%;
+	padding: 5px;
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	
+}
+footer > div {
+	width: 25%;
+}
